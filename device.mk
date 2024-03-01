@@ -66,6 +66,11 @@ PRODUCT_VENDOR_PROPERTIES += \
     log.tag=I \
     persist.log.tag=I
 
+# Preloader
+PRODUCT_PACKAGES += \
+    create_pl_dev \
+    create_pl_dev.recovery
+
 # TEE
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.mtk_microtrust_tee_support=1
